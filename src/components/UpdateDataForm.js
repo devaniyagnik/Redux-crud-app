@@ -226,7 +226,7 @@ const UpdateDataForm = () => {
             id="image"
             name="image"
             accept="image/*"
-            value={formData.files[0].name}
+            value={formData.files.name}
             onChange={handleChange}
             className="form-control"
             required={!formData.image}
